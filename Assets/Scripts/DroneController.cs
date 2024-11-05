@@ -21,7 +21,7 @@ public class DroneController : Agent
     private float wantedYRotation;  // desired rotatoion angle for drone
     private float currentYRotation; // current rotation angle for drone
     private float rotationAmount = 2.5f; // amount to rotate per input
-    private float rotaionYVelocoty; // to smooth out the rotaton
+    private float rotationYVelocity; // to smooth out the rotaton
 
     Rigidbody ourDrone; // stores the rigid body component for physics-based movement
 
