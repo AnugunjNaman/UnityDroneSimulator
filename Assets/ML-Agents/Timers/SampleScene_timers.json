@@ -1,0 +1,83 @@
+{
+    "count": 1,
+    "self": 349.73358079999997,
+    "total": 350.89930799999996,
+    "children": {
+        "InitializeActuators": {
+            "count": 1,
+            "self": 0.000754,
+            "total": 0.000754,
+            "children": null
+        },
+        "InitializeSensors": {
+            "count": 1,
+            "self": 0.001019,
+            "total": 0.001019,
+            "children": null
+        },
+        "AgentSendState": {
+            "count": 3006,
+            "self": 0.14474299999999998,
+            "total": 0.166495,
+            "children": {
+                "CollectObservations": {
+                    "count": 3006,
+                    "self": 0.0071059999999999995,
+                    "total": 0.0071059999999999995,
+                    "children": null
+                },
+                "WriteActionMask": {
+                    "count": 3006,
+                    "self": 0.0026019999999999997,
+                    "total": 0.0026019999999999997,
+                    "children": null
+                },
+                "RequestDecision": {
+                    "count": 3006,
+                    "self": 0.012044,
+                    "total": 0.012044,
+                    "children": null
+                }
+            }
+        },
+        "DecideAction": {
+            "count": 3006,
+            "self": 0.982123,
+            "total": 0.98882399999999993,
+            "children": {
+                "RayPerceptionSensor.Perceive": {
+                    "count": 3006,
+                    "self": 0.0067009999999999995,
+                    "total": 0.0067009999999999995,
+                    "children": null
+                }
+            }
+        },
+        "AgentAct": {
+            "count": 3006,
+            "self": 0.008622,
+            "total": 0.008622,
+            "children": null
+        }
+    },
+    "gauges": {
+        "RL_Model.CumulativeReward": {
+            "count": 8,
+            "max": 0.93,
+            "min": -10.0001335,
+            "runningAverage": -2.89877176,
+            "value": -0.7599987,
+            "weightedAverage": -2.07255387
+        }
+    },
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1730831632",
+        "unity_version": "2021.3.12f1",
+        "command_line_arguments": "\/Users\/anugunj\/Downloads\/2021.3.12f1\/Unity.app\/Contents\/MacOS\/Unity -projectpath \/Users\/anugunj\/Downloads\/UnityUAV -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-anugunj -hubSessionId 2fb2e616-b768-4c1e-8ec3-2cda10e25aff -accessToken kGmeCGBOacgMLPK3jdH99jY47zwhLs6RjKaz-Jg6-lY00cf",
+        "communication_protocol_version": "1.5.0",
+        "com.unity.ml-agents_version": "2.0.1",
+        "scene_name": "SampleScene",
+        "end_time_seconds": "1730831983"
+    }
+}
